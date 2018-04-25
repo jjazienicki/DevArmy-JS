@@ -48,3 +48,14 @@
 // }
 
 // console.log(year(2020))
+
+//Zadanie 1.5
+// c = (F - 32) * 5/9
+
+function FtoC(f) {
+    c = (f - 32) * 5/9;
+    return c;
+}
+
+var zm = FtoC(50);
+console.log(zm);

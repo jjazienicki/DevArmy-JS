@@ -57,3 +57,33 @@
 // }
 
 // console.log(isHigher());
+
+//Zadanie 2.1
+// function power(x, n){
+//         var result = x;
+//     for (var i = 1; i<n; i++){
+//         result = result*x;
+//     }
+//     return result;
+// }
+
+// console.log(power(3, 4));
+
+//Zadanie 2.8
+// function sort(tab) {
+//   var didChange = true;
+//   while (didChange) {
+//     didChange = false;
+//     for (var i = 0; i < tab.length - 1; i++) {
+//       if (tab[i+1] < tab[i]) {
+//         var temp = tab[i+1];
+//         tab[i+1] = tab[i];
+//         tab[i] = temp;
+//         didChange = true;
+//       }
+//     }
+//   }
+//   return tab;
+// }
+
+// console.log(sort([1, 2, 5, 1, 7, 3]));
