@@ -87,3 +87,18 @@
 // }
 
 // console.log(sort([1, 2, 5, 1, 7, 3]));
+
+//Zadanie 2.9
+// function printKeyValues(object) {
+//   for (let key of Object.keys(object)) {
+//     console.log(key + ": " + object[key]);
+//   }
+// }
+
+// var testObj = {
+//   name: "Matt",
+//   age: "22",
+//   occupation: "student"
+// };
+
+// printKeyValues(testObj);
