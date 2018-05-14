@@ -1,0 +1,12 @@
+@mixin set-full-colors($bg, $fontColor, $borderColor) {
+    background-color: $bg;
+    color: $fontColor;
+    border-color: $borderColor;
+  }
+  @mixin fully-centered($direction: row) {
+    display: flex;
+    align-items: center;
+    flex-direction: $direction;
+    justify-content: center;
+  }
+  

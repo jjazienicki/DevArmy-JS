@@ -1,0 +1,78 @@
+body {
+  background-color: aquamarine;
+}
+
+header {
+  @include fully-centered();
+  margin-top: 100px;
+}
+
+main {
+  background-color: burlywood;
+  @include fully-centered(column);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.newTodo {
+  display: flex;
+  padding: 20px;
+  width: 90%;
+}
+
+.newTodo input{
+  width: 90%;
+  height: 30px;
+}
+
+h2 {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.check-list {
+  width: 90%;
+}
+
+.todo-list {
+  background-color: darkgoldenrod;
+
+  li{
+    background-color: firebrick;
+  }
+}
+
+.done-list {
+  background-color: gray;
+  margin-bottom: 15px;
+
+  li {
+    background-color: green;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+li {
+  margin: 0 auto 2px;
+  width: 94%;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(161, 248, 29);
+}
+
+span {
+  flex: 1 1 auto;
+}
